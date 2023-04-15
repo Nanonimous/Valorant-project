@@ -1,0 +1,347 @@
+body{
+  overflow-x: hidden;
+}
+h1{
+  font-family: Noto sans-Regular 400;
+}
+video{
+  z-index:0;
+}
+.navbar-config{
+  background-color: red;
+  z-index: 2;
+}
+.navbar{
+  z-index: 1;
+}
+.navbar-toggler{
+  z-index: 1;
+
+
+}
+.collapse{
+  z-index: 2;
+}
+
+.nav-item{
+  padding:0 18px;
+  font-size: 1vw;
+  font-family: "arial";
+  font-weight: bolder;
+  cursor: pointer;
+
+}
+.nav-item:hover{
+  background-color: grey;
+  border-radius: .5vw;
+
+}
+
+.nav-item {
+
+text-decoration: none;
+display: inline-block;
+padding: 15px;
+position: relative;
+}
+
+.nav-item:hover::after {
+width: 100%;
+right: 0;
+}
+
+.nav-item::after {
+
+bottom: 0;
+content: "";
+display: block;
+height: 2px;
+position: absolute;
+background: red;
+ transition: width .5s ease 0s, right .5s ease 0s;
+width: 0;
+}
+
+
+/* video title making */
+.video-container{
+  position: absolute;
+}
+.over-video{
+  position: relative;
+}
+.row{
+margin-top: 2rem;
+}
+.adjusting-text-title{
+ padding-left: 3.5vw;
+ padding-bottom: 18.6vw;
+
+}
+.adjusting-image-title{
+  padding-bottom: 10vw;
+}
+
+.main-heading{
+  color: white;
+  font-size: 10vw;
+
+
+}
+.text-adjustment{
+  color: white;
+  font-family: 'arial';
+  width:100vw;
+  font-size: 1.9vw;
+}
+.download-button{
+  background-color: #FC2947;
+  border: none;
+  color: WHITE;
+  width: 12vw;
+  height: 3vw;
+  font-family:'Bebas Neue';
+  font-size: 2vw;
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  margin-top: 3vw;
+
+}
+.download-button:hover{
+  box-shadow: inset 12vw 0 0 0 #0B2447;
+}
+
+.download-button-1{
+  background-color: #FC2947;
+  border: none;
+  color: WHITE;
+  width: 12vw;
+  height: 3vw;
+  font-family:'Bebas Neue';
+  font-size: 2vw;
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  margin-top: 3vw;
+
+}
+.download-button-1:hover{
+  box-shadow: inset 15vw 0 0 0 #0B2447;
+}
+
+
+#news{
+  background-color:WHITE;
+  margin-top:0;
+  }
+
+.news-heading{
+  font-size: 7vw;
+  color: #EB1D36;
+  font-weight: bolder;
+  letter-spacing: 0.2vw;
+  font-family:'Bebas Neue';
+  margin-bottom: 5vw;
+}
+
+.text-background{
+  font-size: 3vw;
+  color: white;
+  border: 2px solid red;
+
+}
+.background-img-secondtab{
+  position: relative;
+  bottom: 7vw;
+
+}
+.over-text{
+  position: absolute;
+  top: 48vw;
+  left: 4.4vw;
+  right: auto;
+  bottom: auto;
+
+}
+.carousel{
+  position: relative;
+  width:60vw;
+  left:18vw;
+}
+
+.new-act-img{
+  width: 100%;
+  height: 1020px;
+  object-fit: cover;
+  max-width: 100%;
+  max-height:  67vw;
+}
+.img-revalation{
+  position: absolute;
+}
+.revalation-overlay{
+  position:relative;
+}
+.revalation-text-1{
+  font-size: 1.2vw;
+  font-weight:bolder;
+  color: #ece8e1;
+  letter-spacing:0.2vw;
+}
+.row-alter{
+  padding-top: 27vw;
+  padding-left: 10vw;
+  padding-bottom: 17.6vw;
+}
+.revalation-text{
+  font-size: 8vw;
+  color: #ece8e1;
+  font-weight:bolder;
+  letter-spacing:0.1vw;
+  font-family:'Bebas Neue';
+}
+
+
+
+/* map-tab */
+#map-tab{
+  margin:0;
+  z-index: -1;
+}
+.img-adjustment-map{
+  width: 100%;
+  height: 70vw;
+  object-fit: cover;
+  max-width:100%;
+  max-height: 100vw;
+
+}
+.maps-img{
+  position:absolute;
+}
+.map-overlay{
+  position: relative;
+}
+.your-map{
+  color: #0f1923;
+  font-size: 9vw;
+  font-weight: bolder;
+  letter-spacing: 0.2vw;
+  line-height: 88%;
+  font-family: 'Bebas Neue';
+  padding-bottom: 2.5vw;
+}
+.row-map-adjustment{
+  padding-left: 10vw;
+  padding-top: 17vw;
+  margin-top: 0;
+  padding-bottom: 17.9vw;
+}
+.map-sub{
+  color:#0f1923;
+  font-weight: 500;
+  font-size: 1.3vw;
+  padding-bottom: 1.5vw;
+}
+.map-exp{
+  color:#7f8387;
+  font-weight:500;
+  font-size: 1vw;
+  padding-bottom: 2.4vw;
+}
+.download-button-4{
+  background-color: #FC2947;
+  border: none;
+  color: WHITE;
+  width: 17vw;
+  height: 3.4vw;
+  font-family:'Bebas Neue';
+  font-size: 2vw;
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  margin-top: 3vw;
+
+}
+.download-button-4:hover{
+  box-shadow: inset 17vw 0 0 0 #0B2447;
+}
+
+/* agent section */
+.row-adjusting{
+  margin-top: 0;
+}
+.agent-tab-background{
+  background-color: #ff4655;
+  height: 60vw;
+}
+.jett-img{
+  padding-top: 10vw;
+}
+.raze-img{
+  padding-top:10vw;
+}
+.img-adjusting{
+  filter: drop-shadow(0 0 0.75rem black);
+
+}
+.youagent-heading{
+  color: #ece8e1;
+  font-weight: bolder;
+ line-height: 88%;
+  font-size: 9vw;
+  font-family: 'Bebas Neue';
+  padding-bottom: 3vw;
+}
+.text-agents{
+  padding-top: 12vw;
+  padding-bottom: 10.6vw;
+}
+.youagent-subtext{
+  color: #ece8e1;
+  font-size: 1.3vw;
+  padding-bottom: 1vw;
+  font-weight: 500;
+}
+
+.youagent-subtext-1{
+  color: #ece8e1;
+  font-size: 0.95vw;
+  font-weight: 500;
+}
+.download-button-2{
+  background-color: white;
+  border: none;
+  color: black;
+  width: 16vw;
+  height: 3.1vw;
+  font-family:'Bebas Neue';
+  font-size: 1.5vw;
+  box-shadow: inset 0 0 0 0 black;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  margin-top: 3vw;
+
+}
+.download-button-2:hover{
+  box-shadow: inset 16vw 0 0 0 black;
+  color: white;
+}
+.line-above{
+  color: white;
+  width: 50%;
+}
+/* footer */
+.footer-1-row{
+  background-color: #292929;
+  color: white;
+  margin-top: 0;
+  text-align: center;
+  padding-top:0.1vw;
+}
+.last-footer{
+  background-color: #111;
+  padding-bottom: 1vw;
+}
+.last-img{
+  margin-left: 48vw;
+  width: 2vw;
+  margin-top: 2vw;
+}
